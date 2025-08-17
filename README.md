@@ -12,8 +12,8 @@ This repository contains my technical notes and diagrams covering core Infrastru
 
 ## 📂 Contents
 - [Linux Notes – systemd vs init, journalctl](Linux/systemd_journalctl.md)
-- Python Automation (Coming Soon)
-- Networking Concepts (Coming Soon)
+- Python Automation (Python/)
+- Networking Concepts (Networking/)
 - System Design (Coming Soon)
 - Monitoring & Observability (Coming Soon)
 
