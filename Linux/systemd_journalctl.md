@@ -56,6 +56,21 @@ journalctl -b -1
 ### Live (follow) logs
 journalctl -f
 
+### Check how much space logs are using
+journalctl --disk-usage
+
+### Remove logs older than 7 days
+sudo journalctl --vacuum-time=7d
+
+### Limit total journal size to 200M
+sudo journalctl --vacuum-size=200M
+
+### Show Errors from Last 1 Hour
+journalctl -p err --since "1 hour ago"
+
+### Show Last 20 Logs of sshd Service
+journalctl -u sshd.service -n 20
+
 
 # Systemd and journald (ASCII Diagram)
 
